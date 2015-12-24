@@ -5,7 +5,7 @@
 	[Last_Name] varchar(15) NOT NULL,
 	[E_Mail] varchar(50) NOT NULL Unique,
 	[Password] varchar(40) NOT NULL,
-	[Profile_Picture] VARBINARY(MAX),
+	[Profile_Picture] DateTime,
 	[Phone_Number] varchar(20) NULL,
 	[Gender] bit NOT NULL,
 	[Birthday] date NOT NULL,
